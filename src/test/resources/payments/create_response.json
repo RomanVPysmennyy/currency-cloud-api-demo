@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "beneficiary_id": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "creator_contact_id": {
+      "type": "string"
+    },
+    "payment_type": {
+      "type": "string"
+    },
+    "payment_date": {
+      "type": "string"
+    },
+    "transferred_at": {
+      "type": "string"
+    },
+    "authorisation_steps_required": {
+      "type": "string"
+    },
+    "last_updater_contact_id": {
+      "type": "string"
+    },
+    "short_reference": {
+      "type": "string"
+    },
+    "conversion_id": {
+      "type": "null"
+    },
+    "failure_reason": {
+      "type": "string"
+    },
+    "payer_id": {
+      "type": "string"
+    },
+    "payer_details_source": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "payment_group_id": {
+      "type": "null"
+    },
+    "unique_request_id": {
+      "type": "null"
+    },
+    "failure_returned_amount": {
+      "type": "string"
+    },
+    "ultimate_beneficiary_name": {
+      "type": "null"
+    },
+    "purpose_code": {
+      "type": "null"
+    },
+    "charge_type": {
+      "type": "null"
+    },
+    "fee_amount": {
+      "type": "null"
+    },
+    "fee_currency": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "id",
+    "amount",
+    "beneficiary_id",
+    "currency",
+    "reference",
+    "reason",
+    "status",
+    "creator_contact_id",
+    "payment_type",
+    "payment_date",
+    "transferred_at",
+    "authorisation_steps_required",
+    "last_updater_contact_id",
+    "short_reference",
+    "conversion_id",
+    "failure_reason",
+    "payer_id",
+    "payer_details_source",
+    "created_at",
+    "updated_at",
+    "payment_group_id",
+    "unique_request_id",
+    "failure_returned_amount",
+    "ultimate_beneficiary_name",
+    "purpose_code",
+    "charge_type",
+    "fee_amount",
+    "fee_currency"
+  ]
+}

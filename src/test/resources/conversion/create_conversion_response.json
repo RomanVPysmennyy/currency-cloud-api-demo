@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "settlement_date": {
+      "type": "string"
+    },
+    "conversion_date": {
+      "type": "string"
+    },
+    "short_reference": {
+      "type": "string"
+    },
+    "creator_contact_id": {
+      "type": "string"
+    },
+    "account_id": {
+      "type": "string"
+    },
+    "currency_pair": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "buy_currency": {
+      "type": "string"
+    },
+    "sell_currency": {
+      "type": "string"
+    },
+    "client_buy_amount": {
+      "type": "string"
+    },
+    "client_sell_amount": {
+      "type": "string"
+    },
+    "fixed_side": {
+      "type": "string"
+    },
+    "core_rate": {
+      "type": "string"
+    },
+    "partner_rate": {
+      "type": "string"
+    },
+    "partner_buy_amount": {
+      "type": "string"
+    },
+    "partner_sell_amount": {
+      "type": "string"
+    },
+    "client_rate": {
+      "type": "string"
+    },
+    "deposit_required": {
+      "type": "boolean"
+    },
+    "deposit_amount": {
+      "type": "string"
+    },
+    "deposit_currency": {
+      "type": "string"
+    },
+    "deposit_status": {
+      "type": "string"
+    },
+    "deposit_required_at": {
+      "type": "string"
+    },
+    "payment_ids": {
+      "type": "array",
+      "items": {}
+    },
+    "unallocated_funds": {
+      "type": "string"
+    },
+    "unique_request_id": {
+      "type": "null"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "mid_market_rate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "settlement_date",
+    "conversion_date",
+    "short_reference",
+    "creator_contact_id",
+    "account_id",
+    "currency_pair",
+    "status",
+    "buy_currency",
+    "sell_currency",
+    "client_buy_amount",
+    "client_sell_amount",
+    "fixed_side",
+    "core_rate",
+    "partner_rate",
+    "partner_buy_amount",
+    "partner_sell_amount",
+    "client_rate",
+    "deposit_required",
+    "deposit_amount",
+    "deposit_currency",
+    "deposit_status",
+    "deposit_required_at",
+    "payment_ids",
+    "unallocated_funds",
+    "unique_request_id",
+    "created_at",
+    "updated_at",
+    "mid_market_rate"
+  ]
+}

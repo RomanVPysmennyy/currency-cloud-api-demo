@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "error_code": {
+      "type": "string"
+    },
+    "error_messages": {
+      "type": "object",
+      "properties": {
+        "api_key": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "params": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "params"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "params": {
+                  "type": "object",
+                  "properties": {
+                    "length": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "length"
+                  ]
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "params"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "api_key"
+      ]
+    }
+  },
+  "required": [
+    "error_code",
+    "error_messages"
+  ]
+}

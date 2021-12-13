@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "error_code": {
+      "type": "string"
+    },
+    "error_messages": {
+      "type": "object",
+      "properties": {
+        "bank_account_holder_name": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "params": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "params"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "params": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "params"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "params": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "params"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "bank_account_holder_name"
+      ]
+    }
+  },
+  "required": [
+    "error_code",
+    "error_messages"
+  ]
+}

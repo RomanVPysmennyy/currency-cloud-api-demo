@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "error_code": {
+      "type": "string"
+    },
+    "error_messages": {
+      "type": "object",
+      "properties": {
+        "login_id": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "params": {
+                  "type": "object",
+                  "properties": {
+                    "minlength": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "minlength"
+                  ]
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "params"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "login_id"
+      ]
+    }
+  },
+  "required": [
+    "error_code",
+    "error_messages"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "error_code": {
+      "type": "string"
+    },
+    "error_messages": {
+      "type": "object",
+      "properties": {
+        "currency_pair": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "params": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "params"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "currency_pair"
+      ]
+    }
+  },
+  "required": [
+    "error_code",
+    "error_messages"
+  ]
+}

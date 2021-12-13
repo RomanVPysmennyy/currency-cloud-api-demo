@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "bank_account_holder_name": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "null"
+    },
+    "payment_types": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "beneficiary_address": {
+      "type": "array",
+      "items": {}
+    },
+    "beneficiary_country": {
+      "type": "null"
+    },
+    "beneficiary_entity_type": {
+      "type": "null"
+    },
+    "beneficiary_company_name": {
+      "type": "null"
+    },
+    "beneficiary_first_name": {
+      "type": "null"
+    },
+    "beneficiary_last_name": {
+      "type": "null"
+    },
+    "beneficiary_city": {
+      "type": "null"
+    },
+    "beneficiary_postcode": {
+      "type": "null"
+    },
+    "beneficiary_state_or_province": {
+      "type": "null"
+    },
+    "beneficiary_date_of_birth": {
+      "type": "null"
+    },
+    "beneficiary_identification_type": {
+      "type": "null"
+    },
+    "beneficiary_identification_value": {
+      "type": "null"
+    },
+    "bank_country": {
+      "type": "string"
+    },
+    "bank_name": {
+      "type": "string"
+    },
+    "bank_account_type": {
+      "type": "null"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "account_number": {
+      "type": "null"
+    },
+    "routing_code_type_1": {
+      "type": "null"
+    },
+    "routing_code_value_1": {
+      "type": "null"
+    },
+    "routing_code_type_2": {
+      "type": "null"
+    },
+    "routing_code_value_2": {
+      "type": "null"
+    },
+    "bic_swift": {
+      "type": "null"
+    },
+    "iban": {
+      "type": "string"
+    },
+    "default_beneficiary": {
+      "type": "string"
+    },
+    "creator_contact_id": {
+      "type": "string"
+    },
+    "bank_address": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "beneficiary_external_reference": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "id",
+    "bank_account_holder_name",
+    "name",
+    "email",
+    "payment_types",
+    "beneficiary_address",
+    "beneficiary_country",
+    "beneficiary_entity_type",
+    "beneficiary_company_name",
+    "beneficiary_first_name",
+    "beneficiary_last_name",
+    "beneficiary_city",
+    "beneficiary_postcode",
+    "beneficiary_state_or_province",
+    "beneficiary_date_of_birth",
+    "beneficiary_identification_type",
+    "beneficiary_identification_value",
+    "bank_country",
+    "bank_name",
+    "bank_account_type",
+    "currency",
+    "account_number",
+    "routing_code_type_1",
+    "routing_code_value_1",
+    "routing_code_type_2",
+    "routing_code_value_2",
+    "bic_swift",
+    "iban",
+    "default_beneficiary",
+    "creator_contact_id",
+    "bank_address",
+    "created_at",
+    "updated_at",
+    "beneficiary_external_reference"
+  ]
+}
